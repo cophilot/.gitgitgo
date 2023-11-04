@@ -1,0 +1,101 @@
+{
+    "__comment": [
+        "Use ${GITHUBNAME} for your github name",
+        "Use ${FULLNAME} for your full name",
+        "Use ${REPONAME} for the name of the repository",
+        "Use ${YEAR} for the current year",
+        "Use ${MONTH} for the current month",
+        "Use ${DAY} for the current day of the month"
+    ],
+    "files": [
+        {
+            "name": "README.md",
+            "gitignore": false,
+            "oninit": true,
+            "text": [
+                "<div align=\"center\">",
+                "  <br />",
+                "  <!-- <img src=\"\" alt=\"${REPONAME}Logo\" width=\"30%\"/> -->",
+                "  <h1>${REPONAME}</h1>",
+                "  <p>",
+                "     Description",
+                "  </p>",
+                "</div>",
+                "",
+                "<!-- Badges -->",
+                "<div align=\"center\">",
+                "   <a href=\"https://github.com/${GITHUBNAME}/${REPONAME}/releases\">",
+                "       <img src=\"https://img.shields.io/github/v/release/${GITHUBNAME}/${REPONAME}?display_name=tag\" alt=\"current realease\" />",
+                "   </a>",
+                "   <a href=\"https://github.com/${GITHUBNAME}/${REPONAME}/blob/master/LICENSE\">",
+                "       <img src=\"https://img.shields.io/github/license/${GITHUBNAME}/${REPONAME}\" alt=\"license\" />",
+                "   </a>",
+                "   <a href=\"https://github.com/${GITHUBNAME}/${REPONAME}/stargazers\">",
+                "       <img src=\"https://img.shields.io/github/stars/${GITHUBNAME}/${REPONAME}\" alt=\"stars\" />",
+                "   </a>",
+                "   <a href=\"https://github.com/${GITHUBNAME}/${REPONAME}/commits/master\">",
+                "       <img src=\"https://img.shields.io/github/last-commit/${GITHUBNAME}/${REPONAME}\" alt=\"last commit\" />",
+                "   </a>",
+                "</div>",
+                "",
+                "---",
+                "",
+                "* [Bugs](#bugs)",
+                "* [Release Notes](#release-notes)",
+                "",
+                "---",
+                "",
+                "## Bugs",
+                "",
+                "* *no known bugs*",
+                "",
+                "---",
+                "",
+                "## [Release Notes](https://github.com/${GITHUBNAME}/${REPONAME}/blob/master/CHANGELOG.md)",
+                "",
+                "### [v0.0.1](https://github.com/${GITHUBNAME}/${REPONAME}/tree/0.0.1)",
+                "",
+                "* *Initial release*",
+                "",
+                "---",
+                "",
+                "by [${FULLNAME}](https://github.com/${GITHUBNAME})"
+            ]
+        },
+        {
+            "name": "CHANGELOG.md",
+            "gitignore": false,
+            "oninit": true,
+            "text": [
+                "# Change Log *${REPONAME}*",
+                "",
+                "---",
+                "",
+                "## [v0.0.1](https://github.com/${GITHUBNAME}/${REPONAME}/tree/0.0.1) (${YEAR}-${MONTH}-${DAY})",
+                "",
+                "* *Initial release*",
+                "",
+                "---"
+            ]
+        },
+        {
+            "name": "ideas.md",
+            "gitignore": true,
+            "opeoninitn": false,
+            "text": [
+                "# IDEAS *${REPONAME}",
+                "<!-- - [ ] This is an idea example-->"
+            ]
+        },
+        {
+            "name": "resources/init.txt",
+            "gitignore": true,
+            "oninit": false,
+            "text": []
+        },
+        {
+            "name": ".gitattributes",
+            "text": ["#comment", "# file export-ignore"]
+        }
+    ]
+}
