@@ -22,15 +22,4 @@
 
 ---
 
--   [Bugs](#bugs)
--   [Release Notes](#release-notes)
-
----
-
-## Bugs
-
--   _no known bugs_
-
----
-
 by [Philipp B.](https://github.com/phil1436)
