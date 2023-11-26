@@ -9,6 +9,25 @@
     ],
     "files": [
         {
+            "name": ".gitgitgoc",
+            "gitignore": true,
+            "oninit": true,
+            "description": "A gitgitgo config file",
+            "keywords": "gitgitgo,ggg,git",
+            "text": [
+                "# This is a comment",
+                "",
+                "# Set the provider",
+                "provider=${GITHUBNAME} ",
+                "",
+                "# Set your full name",
+                "fullname=Philipp B.",
+                "",
+                "# Set your github name",
+                "githubname=${GITHUBNAME} "
+            ]
+        },
+        {
             "name": "README.md",
             "gitignore": false,
             "oninit": true,
