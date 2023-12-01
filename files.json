@@ -101,7 +101,7 @@
             ]
         },
         {
-            "name": "requirments.txt",
+            "name": "requirements.txt",
             "gitignore": false,
             "oninit": false,
             "keywords": "python",
