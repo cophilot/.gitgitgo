@@ -101,6 +101,15 @@
             ]
         },
         {
+            "name": "requirments.txt",
+            "gitignore": false,
+            "oninit": false,
+            "keywords": "python",
+            "description": "This is a template for a CHANGELOG.md file",
+            "text": [
+            ]
+        },
+        {
             "name": "ideas.md",
             "gitignore": true,
             "oninit": true,
