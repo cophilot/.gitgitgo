@@ -43,8 +43,8 @@ To get started with gitgitgo, you can use the [GitGitGo-CLI](https://github.com/
 
 1. Make your own repository with this template.
 2. Edit the files.json file to your needs.
-3. Specify the repository owner as a provider in the GitGitGo-CLI.
-4. run `gitgitgo print` to see the files that can be added to your repository.
+3. Specify the repository owner as the provider in the GitGitGo-CLI.
+4. run `gitgitgo print -n` to see the files that can be added to your repository.
 
 ---
 
