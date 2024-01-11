@@ -9,14 +9,14 @@
 
 <!-- Badges -->
 <div align="center">
-   <a href="https://github.com/phil1436/.gitgitgo/blob/main/LICENSE">
-       <img src="https://img.shields.io/github/license/phil1436/.gitgitgo" alt="license" />
+   <a href="https://github.com/cophilot/.gitgitgo/blob/main/LICENSE">
+       <img src="https://img.shields.io/github/license/cophilot/.gitgitgo" alt="license" />
    </a>
-   <a href="https://github.com/phil1436/.gitgitgo/stargazers">
-       <img src="https://img.shields.io/github/stars/phil1436/.gitgitgo" alt="stars" />
+   <a href="https://github.com/cophilot/.gitgitgo/stargazers">
+       <img src="https://img.shields.io/github/stars/cophilot/.gitgitgo" alt="stars" />
    </a>
-   <a href="https://github.com/phil1436/.gitgitgo/commits/main">
-       <img src="https://img.shields.io/github/last-commit/phil1436/.gitgitgo" alt="last commit" />
+   <a href="https://github.com/cophilot/.gitgitgo/commits/main">
+       <img src="https://img.shields.io/github/last-commit/cophilot/.gitgitgo" alt="last commit" />
    </a>
 </div>
 
@@ -35,7 +35,7 @@ This repository is a template for your own gitgitgo repository. It contains a ba
 
 This repository will contains the file templates that will be used by a gitgitgo tool.
 
-To get started with gitgitgo, you can use the [GitGitGo-CLI](https://github.com/phil1436/GitGitGo-CLI).
+To get started with gitgitgo, you can use the [GitGitGo-CLI](https://github.com/cophilot/GitGitGo-CLI).
 
 ---
 
@@ -77,4 +77,4 @@ The following placeholders are available:
 
 ---
 
-by [Philipp B.](https://github.com/phil1436)
+by [Philipp B.](https://github.com/cophilot)
